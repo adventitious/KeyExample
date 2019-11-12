@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>big int demo</title>
+</head>
+
+<body>
+
+    <form action="/action_page.php">
+
+        <fieldset>
+
+            <legend>P</legend>
+            prime between 100 and 250
+            <br>
+            <input type="text" name="fname" id="inputP"><br>
+            <button id="generateP" type="button">generate</button>
+
+        </fieldset>
+        
+        <fieldset>
+
+            <legend>Q</legend>
+            prime between 100 and 250
+            <br>
+            <input type="text" name="fname" id="inputQ"><br>
+            <button id="generateQ" type="button">generate</button>
+
+        </fieldset>
+        
+        <fieldset>
+
+            <legend>PQ</legend>
+            P * Q
+            <br>
+            <div id="outputPQ"><br></div><br>
+            <button id="calculatePQ" type="button">calculate</button>
+
+        </fieldset>
+        
+        <fieldset>
+
+            <legend>ϕ Phi</legend>
+            (P-1)* (Q-1)
+            <br>
+            <div id="outputPhi"><br></div><br>
+            <button id="calculatePhi" type="button">calculate</button>
+
+        </fieldset>
+        
+        <fieldset>
+            <legend>e</legend>
+            greater than 1, less than Phi, Greatest common divisor of e and Phi = 1 ( e and Phi are coprime )
+            <br>
+            <div id="outputE"><br></div><br>
+            <button id="generateE" type="button">generate</button>
+
+        </fieldset>
+        
+        <fieldset>
+            <legend>d</legend>
+            greater than 1, less than Phi, ( e * d ) % Phi = 1
+            <br>
+            <div id="outputD"><br></div><br>
+            <button id="calculateD" type="button">calculate</button>
+
+        </fieldset>
+        
+        <fieldset>
+            <legend>c</legend>
+            c = ( m^e ) % PQ
+            <br>
+            <input type="text" name="fname" value="123" id="inputM"><br>
+            <div id="outputC"><br></div><br>
+            <button id="generateC" type="button">calculate</button>
+
+        </fieldset>
+        
+        <fieldset>
+            <legend>m</legend>
+            m = ( c^d ) % PQ
+            <br>
+            <input type="text" name="fname" id="inputC"><br>
+            <div id="outputM"><br></div><br>
+            <button id="generateM" type="button">calculate</button>
+            <button id="all" type="button">all</button>
+
+        </fieldset>
+        
+    </form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="myscript.js"></script>
+</body>
+
+</html>
+​
